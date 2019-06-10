@@ -10,8 +10,7 @@ class Image
 
   def output_image
     @picture.each do |row|
-      #puts row.each {|row| print row}
-      puts row.join {|row| print row}
+      puts row.join 
 
     end
   end
